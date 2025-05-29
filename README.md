@@ -8,13 +8,11 @@ This project applies machine learning techniques to classify **apple leaf diseas
 Apple-Leaf-Disease-Classification/
 ├── notebooks/
 │   ├── lr_apple_00.ipynb     # Logistic Regression (default)
-│   ├── lr_apple_01.ipynb     # Logistic Regression (tuned)
+│   ├── lr_apple_01.ipynb     # Logistic Regression (pca)
 │   ├── rf_apple_00.ipynb     # Random Forest (default)
-│   ├── rf_apple_01.ipynb     # Random Forest (tuned)
+│   ├── rf_apple_01.ipynb     # Random Forest (pca)
 │   ├── knn_apple_00.ipynb    # K-Nearest Neighbors (default)
-│   └── knn_apple_01.ipynb    # K-Nearest Neighbors (tuned)
-├── data/
-│   └── dataset.csv           # Apple leaf dataset
+│   └── knn_apple_01.ipynb    # K-Nearest Neighbors (pca)
 └── README.md                 # Project overview and instructions
 ```
 
@@ -63,6 +61,9 @@ The dataset used contains features relevant to **apple leaf disease detection**,
 - Texture descriptors
 - Shape features
 - Class labels indicating disease type
+- dataset link:choosed only apple datasets for Apple Leaf Disease Detection.
+(https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)
+
 
 ## 🚀 Future Enhancements
 
